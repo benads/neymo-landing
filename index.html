@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./assets/js/index.js"></script>
-    <title>Neymo | Landing-Page</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./assets/js/index.js"></script>
+		<title>Neymo | Landing-Page</title>
+	</head>
+	<body>
+		<header>
+			<div class="navbar">
+				<div>
+					<img src="./assets/images/Logo-Header.svg" alt="Logo-Header" />
+				</div>
+				<div class="navbar__rightSide">
+					<p class="navbar__soumssionMoney">Soumettre une monnaie locale</p>
+					<a href="#" class="btn">Accéder à la web app</a>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<div class="firstBlock">
+				<div class="firstBlock__text">
+					<h1 class="primaryTitle">
+						Repenser votre consommation <br />
+						vers le local
+					</h1>
+					<h3 class="firstBlock__description">
+						NeyMo est un gestionnaire de monnaie locale conçu pour soutenir les
+						associations, les collectivitées et toutes les personnes qui ont à
+						cœur la revalorisation de leurs territoires dans une démarche de
+						développement durable et sociale. Rejoignez les associations et les
+						adhérents déja client de NeyMo
+					</h3>
+					<form class="firstBlock__form">
+					
+
+						<input
+							type="text"
+							id="name"
+							name="name"
+                            required
+                            class="firstBlock__input"
+							minlength="4"
+							maxlength="8"
+                            size="10"
+                            placeholder="Trouver une monnaie locale partenaire "
+                        />
+                        <button class="firstBlock__button"> Commencer </button>
+					</form>
+				</div>
+				<div>
+					<img
+						src="./assets/images/Pic-Header.png"
+						alt="desc-app"
+						class="firstBlock__image"
+					/>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<img src="./assets/images/Waves.svg" alt="waves" class="footer__waves" />
+		</footer>
+	</body>
 </html>

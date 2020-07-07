@@ -1,3 +1,107 @@
-body {
-    background-color: blue;
+@import "./reset.css";
+
+@font-face {
+	font-family: "Nunito-Regular";
+	src: url("../fonts/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Raleway-Bold";
+	src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "PT-SANS";
+	src: url("../fonts/PTSans-Regular.ttf") format("truetype");
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	margin: 20px;
+	align-items: center;
+}
+
+.navbar__rightSide {
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.btn {
+	text-decoration: none;
+	color: #189b73;
+	width: 238px;
+	height: 44px;
+	background-color: rgba(245, 245, 245, 0.5);
+	border-radius: 10px;
+	font-family: "Nunito-Regular";
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	margin: 20px;
+}
+
+.navbar__soumssionMoney {
+	font-family: "Nunito-Regular";
+	font-size: 18px;
+}
+
+.primaryTitle {
+	font-family: "Raleway-Bold";
+	font-style: normal;
+	font-size: 80px;
+	line-height: 94px;
+	word-spacing: 3px;
+}
+
+.firstBlock {
+	display: flex;
+}
+
+.firstBlock__description {
+	font-family: "PT-SANS";
+	line-height: 180%;
+	margin-top: 40px;
+	padding-right: 120px;
+}
+
+.firstBlock__text {
+	padding: 40px;
+}
+
+.firstBlock__image {
+	width: 730px;
+}
+
+.firstBlock__form {
+	margin-top: 12px;
+}
+
+.firstBlock__input {
+	width: 230px;
+	height: 30px;
+	border-radius: 10px;
+	border: 0.3px lightgrey solid;
+	font-family: "Nunito-Regular";
+	margin-right: 10px;
+}
+
+.firstBlock__button {
+	background-color: #189b73;
+	width: 100px;
+	height: 34px;
+	border-radius: 10px;
+	border: 0.3px lightgrey solid;
+}
+
+.footer__waves {
+	margin: 0px;
+	width: 100%;
 }
