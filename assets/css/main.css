@@ -151,6 +151,10 @@
 	height: 80vh;
 }
 
+.resize {
+	width: 500px;
+}
+
 .thirdBlock__text {
 	margin-right: 90px;
 	padding: 30px;
@@ -192,4 +196,3 @@
 	align-items: center;
 	left: 45%;
 }
-
