@@ -106,7 +106,7 @@
 .secondBlock {
 	margin: 100px;
 	display: flex;
-	height: 100vh;
+	height: 80vh;
 }
 
 .secondBlock__image {
@@ -145,7 +145,51 @@
 	margin-right: 10px;
 }
 
+.thirdBlock {
+	margin: 73px;
+	display: flex;
+	height: 80vh;
+}
+
+.thirdBlock__text {
+	margin-right: 90px;
+	padding: 30px;
+}
+
+.form__start {
+	text-align: center;
+}
+
+.form__start__title {
+	font-family: "Raleway-Bold";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 59px;
+	margin-bottom: 30px;
+}
+
+.form__start_button {
+	font-family: "Nunito-Regular";
+	background: linear-gradient(0deg, #d16228, #d16228);
+	width: 100px;
+	height: 34px;
+	border-radius: 10px;
+	border: 0.3px lightgrey solid;
+	color: white;
+}
+
 .footer__waves {
 	margin: 0px;
 	width: 100%;
 }
+
+.footer__logo {
+	margin-top: 50px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 45%;
+}
+
