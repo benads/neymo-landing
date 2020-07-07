@@ -94,11 +94,55 @@
 }
 
 .firstBlock__button {
+	font-family: "Nunito-Regular";
 	background-color: #189b73;
 	width: 100px;
 	height: 34px;
 	border-radius: 10px;
 	border: 0.3px lightgrey solid;
+	color: white;
+}
+
+.secondBlock {
+	margin: 100px;
+	display: flex;
+	height: 100vh;
+}
+
+.secondBlock__image {
+	width: 400px;
+}
+
+.secondBlock__text {
+	margin-left: 120px;
+	padding: 30px;
+}
+
+.secondBlock__title {
+	font-family: "Raleway-Bold";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 59px;
+}
+
+.secondBlock__list {
+	margin-top: 40px;
+}
+
+.secondBlock__ul {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	font-family: "PT-SANS";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.secondBlock__svgCheck {
+	margin-right: 10px;
 }
 
 .footer__waves {
